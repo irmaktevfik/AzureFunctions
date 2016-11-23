@@ -1,0 +1,2 @@
+android.app.Application
+CommentAnalytics.Mobile.Droid.CommentAnalytics.Mobile.Droid

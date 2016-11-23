@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CommentAnalytics.Mobile.Pages.MainPage">
+  <ContentPage.Content>
+    <StackLayout VerticalOptions="Center">
+      <Entry x:Name="txtComments" Placeholder="Please enter your feedback" HorizontalTextAlignment="Center"></Entry>
+      <Button x:Name="btnSubmit" Text="Send" HorizontalOptions="CenterAndExpand"></Button>
+      <ActivityIndicator x:Name="ActivityIndicator" Color="Blue" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent,Property=Height,Factor=0.33}" RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent,Property=Height,Factor=0.33}"/>
+    </StackLayout>
+  </ContentPage.Content>
+</ContentPage>
