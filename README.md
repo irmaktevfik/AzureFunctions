@@ -22,4 +22,4 @@ Overall Structure of this project looks like
 * Have our SignalR Hub up and running on our server and have our webpage client created (with a simple progress bar to show sentiment score) connected. After we have them up and running, we will jump back to our Azure function to have SignalR package installed and invoke our hub with the sentiment data to show.
 
 ### Link for Step By Step Implementation
-[IRMAKTEVFIK.COM](http://www.irmaktevfik.com)
+[IRMAKTEVFIK.COM](http://www.irmaktevfik.com/post/2016/11/24/how-to-use-azure-functions-with-microsoft-cognitive-services-and-signalr-to-process-and-display-data-sent-from-xamarin-app)
